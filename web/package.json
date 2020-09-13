@@ -1,0 +1,17 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "Rust WASM web application.",
+  "main": "index.html",
+  "scripts": {
+    "build": "npx webpack && cp index.html dist/",
+    "start": "echo \"http://localhost:3000/dist/\" && npx wasm-server"
+  },
+  "author": "Bernard Igiri",
+  "license": "MIT",
+  "dependencies": {
+    "wasm-server": "0.0.4",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}

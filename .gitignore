@@ -1,0 +1,5 @@
+commit.txt
+lib/target
+web/dist
+web/node_modules
+*.swp
