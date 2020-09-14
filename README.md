@@ -2,19 +2,10 @@
 
 Project to learn WASM development with Rust lang.
 
-## Dependencies
-- rust
-- npm
-- wasm-pack `cargo install wasm-pack`
+## wasm-pack/
 
-## Setup
-```
-cd web;
-npm install;
-```
+Project using wasm-pack
 
-## Build
-`./build.sh`
+## yew-app/
 
-## Run
-`./start.sh`
+Project using YEW

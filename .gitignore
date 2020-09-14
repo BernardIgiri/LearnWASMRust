@@ -1,5 +1,6 @@
 commit.txt
-lib/target
-web/dist
-web/node_modules
 *.swp
+target
+dist
+static
+node_modules
